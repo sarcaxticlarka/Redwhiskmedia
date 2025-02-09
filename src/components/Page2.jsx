@@ -81,7 +81,7 @@ const Page2 = () => {
       <div className="w-[15vw] absolute top-[35%] left-0 h-[15vw] bg-[#ec646f] via-[#e773d5] to-[#8ae4eb] rounded-full bg-[length:230%] bg-center"></div>
       <div className="w-[15vw] absolute top-[55%] right-0 h-[15vw] bg-[#ec646f] from-[#fcffbc] via-[#e773d5] to-[#8ae4eb] rounded-full bg-[length:230%] bg-center rotate-[270deg]"></div>
 
-      <h1 className="text-4xl font-bold mt-36 w-[80%] text-[#333333] text-center sm:text-[2.3vw]">
+      <h1 className="create text-4xl font-bold mt-36 w-[80%] text-[#333333] text-center sm:text-[2.3vw]">
         TO CREATE, INNOVATE, AND ELEVATE THE STANDARD OF DESIGN, VIDEO, GRAPHICS,
         AND WEB EXPERIENCES—PUTTING CREATIVITY, IMPACT, AND USER EXPERIENCE FIRST.
       </h1>
