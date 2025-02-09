@@ -50,10 +50,10 @@ const HolisticContent = () => {
       style={{ fontFamily: "Poppins, serif" }}
     >
       <div className="text-center max-w-4xl">
-        <h1 className="text-4xl md:text-5xl lg:text-6xl  font-semi-bold mb-6 ">
+        <h1 className="Strategic text-4xl md:text-5xl lg:text-6xl  font-semi-bold mb-6 ">
           Strategic Growth Through Expert Consulting
         </h1>
-        <p className="text-gray-400 text-lg md:text-xl mx-auto mb-12">
+        <p className="text-gray-400 Unlock text-lg md:text-xl mx-auto mb-12">
           Unlock your business’s full potential with data-driven strategies, innovative solutions, and seamless execution—maximizing impact with minimal effort.
         </p>
       </div>
@@ -74,7 +74,7 @@ const HolisticContent = () => {
       </div>
 
       <div className="flex items-center justify-center">
-        <button className="px-6 py-3 bg-[#ec646f] text-white text-lg font-medium rounded hover:bg-[#ec6463] transition">
+        <button className="px-6 vision py-3 bg-[#ec646f] text-white text-lg font-medium rounded hover:bg-[#ec6463] transition">
           Your vision, our expertise—let’s make it happen!
         </button>
       </div>

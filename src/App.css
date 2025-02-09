@@ -28,8 +28,30 @@ body {
   }
 }
 @media screen and (max-width: 780px) {
- 
+ .page2{
+  height: fit-content;
+  padding-bottom: 20vw;
+  
+ }
+
+ .c1{
+  top: 77%;
+ }
   .create{
+    font-size: 3.5vw;
+  }
+  .down{
+    font-size: 2.5vw;
+  }
+
+  .Strategic{
+    padding-top: 20vw;
+    font-size: 6vw;
+  }
+  .vision{
+    margin-bottom: 15vw;
+  }
+  .Unlock{
     font-size: 3.5vw;
   }
 }

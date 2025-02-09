@@ -77,8 +77,8 @@ const Page2 = () => {
   }, []);
 
   return (
-    <div className="page2 bg-[#F6F0EE] w-full min-h-screen flex flex-col items-center relative">
-      <div className="w-[15vw] absolute top-[35%] left-0 h-[15vw] bg-[#ec646f] via-[#e773d5] to-[#8ae4eb] rounded-full bg-[length:230%] bg-center"></div>
+    <div className="page2 bg-[#F6F0EE] w-full h-screen flex flex-col items-center relative">
+      <div className="w-[15vw] c1 absolute top-[35%] left-0 h-[15vw] bg-[#ec646f] via-[#e773d5] to-[#8ae4eb] rounded-full bg-[length:230%] bg-center"></div>
       <div className="w-[15vw] absolute top-[55%] right-0 h-[15vw] bg-[#ec646f] from-[#fcffbc] via-[#e773d5] to-[#8ae4eb] rounded-full bg-[length:230%] bg-center rotate-[270deg]"></div>
 
       <h1 className="create text-4xl font-bold mt-36 w-[80%] text-[#333333] text-center sm:text-[2.3vw]">
@@ -100,7 +100,7 @@ const Page2 = () => {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <button className="px-4 py-2 text-[#333333] border-1 rounded-lg font-semibold   hover:bg-[#ec646f] transition" style={{ fontFamily: "Poppins, serif" }}>
+                <button className="down px-4 py-2 text-[#333333] border-1 rounded-lg font-semibold hover:bg-[#ec646f] transition" style={{ fontFamily: "Poppins, serif" }}>
                   Download Brochure
                 </button>
               </a>
