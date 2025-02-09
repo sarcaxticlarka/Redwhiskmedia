@@ -72,9 +72,9 @@
 // export default ReelSection;
 import React from "react";
 import './ReelSection.css';
-import reel1 from '../assets/reel1.mp4';
-import reel2 from '../assets/reel2.mp4';
-import reel3 from '../assets/redshort.mp4';
+// import reel1 from '../assets/reel1.mp4';
+// import reel2 from '../assets/reel2.mp4';
+// import reel3 from '../assets/redshort.mp4';
 
 
 const ReelSection = () => {
@@ -82,20 +82,20 @@ const ReelSection = () => {
         {
             title: "Darknet Diaries",
             views: "2.4M+ Views",
-            video: reel1,
+            video: "",
             logo: "https://images.unsplash.com/photo-1496200186974-4293800e2c20?q=80&w=3132&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
         },
         {
             title: "Reid Hoffman",
             subtitle: "Co-founder LinkedIn",
             views: "3.2M+ Views",
-            video: reel2,
+            video: "",
             logo: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRNFt3DmsEDkQNQQxeYb8d8MtOaE9wsxjpB0w&s",
         },
         {
             title: "Acquired FM",
             views: "4.9M+ Views",
-            video: reel3,
+            video: "",
             logo: "https://images.unsplash.com/photo-1629295607202-d13e19604c34?q=80&w=2485&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
         },
     ];
