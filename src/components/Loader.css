@@ -1,0 +1,82 @@
+.loader {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: #fff;
+  }
+  
+  .loader p {
+    font-family: 'Moulin Rouge', sans-serif;
+    font-size: 20px;
+    margin-top: 15px;
+    line-height: 0;
+  }
+  
+  .dot {
+    width: 30px;
+    height: 30px;
+    display: inline-block;
+    animation: slide 2s infinite;
+    margin: 0 5px;
+  }
+  
+  .dot:nth-child(1) {
+    animation-delay: 0.1s;
+    background: #fec50a;
+  }
+  
+  .dot:nth-child(2) {
+    animation-delay: 0.2s;
+    background: #f46c0f;
+  }
+  
+  .dot:nth-child(3) {
+    animation-delay: 0.3s;
+    background: #e22120;
+  }
+  
+  .dot:nth-child(4) {
+    animation-delay: 0.4s;
+    background: #02619c;
+  }
+  
+  .dot:nth-child(5) {
+    animation-delay: 0.5s;
+    background: #02619c;
+  }
+  
+  .dot:nth-child(6) {
+    animation-delay: 0.6s;
+    background: #57caf4;
+  }
+  
+  .dot:nth-child(7) {
+    animation-delay: 0.7s;
+    background: #5852a3;
+  }
+  
+  .dot:nth-child(8) {
+    animation-delay: 0.8s;
+    background: #b60350;
+  }
+  
+  .dot:nth-child(9) {
+    animation-delay: 0.9s;
+    background: #ed2796;
+  }
+  
+  @keyframes slide {
+    0% {
+      transform: scale(1);
+    }
+    50% {
+      opacity: 0.3;
+      transform: scale(2);
+    }
+    100% {
+      transform: scale(1);
+    }
+  }
+  

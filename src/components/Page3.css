@@ -1,0 +1,128 @@
+ 
+.page3 {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    overflow: hidden;
+  }
+  
+  .dont {
+    position: absolute;
+    top: 15vw;
+    left: 11%;
+  }
+  
+  .red-line {
+    position: absolute;
+    top: 1.87vw;
+    height: 0.3vw;
+    width: 32vw;
+    background-color: #ec646f;
+  }
+  
+  .circle {
+    position: absolute;
+    right: 25%;
+    top: 28%;
+    display: flex;
+    gap: 3vw;
+  }
+  
+  .circle-con {
+    display: flex;
+    flex-direction: column;
+    gap: 3vw;
+  }
+  
+  .circle1 {
+    height: 7vw;
+    width: 7vw;
+    border-radius: 50%;
+    background-color: white;
+  }
+  
+  .red-circle {
+    position: absolute;
+    top: 13vw;
+    height: 7vw;
+    width: 7vw;
+    border-radius: 50%;
+    background-color: #ec646f;
+  }
+  
+  /* Media Queries for responsiveness */
+  @media (max-width: 768px) {
+   .page3{
+    min-height: 70vh;
+   }
+    .dont h2 {
+      font-size: 4vw; 
+    }
+  
+    .red-line {
+      top: 2.1vw;
+      height: 0.5vw;
+      width: 33vw;
+    }
+  
+    .circle1 {
+      height: 10vw;
+      width: 10vw;  
+    }
+  
+    .red-circle {
+        left: 50%;
+      top: 11vw;
+      height: 10vw;
+      width: 10vw;  
+    }
+  
+    .circle {
+      right: 10%;
+      top: 20%;
+    }
+  
+    .circle-con {
+      gap: 5vw;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .page3{
+        min-height: 50vh;
+    }
+    .dont {
+        margin-top: 15vw;
+    }
+    .dont h2 {
+      font-size: 4.5vw;  
+      line-height: 5vw;
+    }
+  
+    .red-line {
+      top: 2.2vw;
+      height: 0.6vw;
+      width: 38vw;
+    }
+  
+    .circle1 {
+     
+      height: 12vw;
+      width: 12vw;  
+    }
+  
+    .red-circle {
+      top: 26vw;
+      left: 55%;
+      height: 12vw;
+      width: 12vw;  
+    }
+  
+    .circle {
+      right: 13%;
+      top: 21%;
+    }
+  }
+  

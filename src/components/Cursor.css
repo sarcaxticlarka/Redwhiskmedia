@@ -1,0 +1,48 @@
+/* .pointer {
+    position: fixed; 
+    pointer-events: none;
+    z-index: 9999;  
+    transform: translate(-50%, -50%);  
+  }
+  
+  .bubble {
+    position: relative;
+    display: flex;
+    float: right;
+    top: -25px;
+    left: 30px;
+    background-color: #F97068;
+    width: 100px;
+    height: 45px;
+    border-radius: 100px;
+    border: 5px solid #E5DADA;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 1.3vw;
+  }
+  
+  path {
+    fill: #F97068;
+    stroke: #E5DADA;
+    stroke-width: 3px;
+    stroke-linejoin: round;
+  } */
+  .pointer {
+    position: fixed; /* Use fixed instead of absolute */
+    pointer-events: none;
+    z-index: 9999; /* Increase z-index to ensure it's on top */
+    transform: translate(-50%, -50%); /* Center the cursor */
+  }
+  
+ 
+  
+  path {
+    fill: #F97068;
+    stroke: #E5DADA;
+    stroke-width: 3px;
+    stroke-linejoin: round;
+  }
+  .bubble img{
+    scale: 1.5;
+  }
