@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import { BatteryCharging, Circle } from "lucide-react";
+import { BatteryCharging,  } from "lucide-react";
 
 const Camere = () => {
   const [time, setTime] = useState(new Date().toLocaleTimeString());
@@ -21,8 +21,8 @@ const Camere = () => {
       {/* Top Right Lines & Battery */}
       <div className="absolute top-4 right-4 w-24 h-0.5 bg-gray-800"></div>
       <div className="absolute top-4 right-4 h-12 w-0.5 bg-gray-800"></div>
-      <div className="absolute top-6 right-6  text-xl text-gray-800 flex items-center gap-1">
-        70% <BatteryCharging />
+      <div className="absolute top-6 right-6  text-3xl text-gray-800 flex items-center gap-1">
+         <BatteryCharging />
       </div>
 
       {/* Bottom Left Lines & REC */}

@@ -126,7 +126,7 @@ const Footer = () => {
                 {/* Social Links */}
                 <div className="flex flex-col items-center md:items-end space-y-2">
                     <a href="#linkedin" className="hover:underline">LinkedIn</a>
-                    <a href="#instagram" className="hover:underline">Instagram</a>
+                    <a href="https://www.instagram.com/redwhisk.media/" className="hover:underline">Instagram</a>
                     <a href="#facebook" className="hover:underline">Facebook</a>
                 </div>
             </div>

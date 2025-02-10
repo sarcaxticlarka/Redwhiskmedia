@@ -73,7 +73,8 @@
 import React from "react";
 import './ReelSection.css';
 import reel1 from '../assets/reel1.mp4';
-import reel2 from '../assets/red_reel2.mp4';
+import reel2 from '../assets/reel2.mp4';
+import reel3 from '../assets/redshort1.mp4';
 // import reel3 from '../assets/redshort.mp4';
 
 
@@ -95,7 +96,7 @@ const ReelSection = () => {
         {
             title: "Acquired FM",
             views: "4.9M+ Views",
-            video: "",
+            video: reel3,
             logo: "https://images.unsplash.com/photo-1629295607202-d13e19604c34?q=80&w=2485&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
         },
     ];

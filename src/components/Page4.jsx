@@ -128,7 +128,8 @@ import contentResearch from "../assets/content_research.jpg";
 import graphic from "../assets/graphic.jpg";
 import storytelling from "../assets/storytelling.jpg";
 import videoEditing from "../assets/video_editing.jpg";
- 
+import brandStr from "../assets/brand_stratergy.jpg";
+
 const FlipCard = ({ title, serialNo, imageUrl }) => {
   return (
     <div className="flip-card w-96 h-72  md:mb-8 ">
@@ -154,7 +155,7 @@ const Page4 = () => {
     { title: "Video Editing", serialNo: 1, imageUrl: videoEditing },
     { title: "Website Development", serialNo: 2, imageUrl: webImg },
     { title: "Graphic Design", serialNo: 3, imageUrl: graphic },
-    { title: "Brand Strategy", serialNo: 4, imageUrl: webImg },
+    { title: "Brand Strategy", serialNo: 4, imageUrl: brandStr },
     { title: "Storytelling", serialNo: 5, imageUrl: storytelling },
     { title: "Content Research", serialNo: 6, imageUrl: contentResearch },
   ];

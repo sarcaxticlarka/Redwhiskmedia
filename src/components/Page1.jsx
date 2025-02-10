@@ -77,7 +77,7 @@
 // export default Page1;
 import React, { useState, useEffect } from "react";
 import Navbar from "./Navbar";
-import bgvedio from "../assets/bgvedio.mp4";
+import bgvedio from "../assets/redbg.mp4";
 import bgvedioSm from "../assets/redshik_phone.mp4";
 import { PopupButton } from "react-calendly";
 

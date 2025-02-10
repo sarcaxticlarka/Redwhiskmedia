@@ -1,49 +1,53 @@
 import React from "react";
 import { motion } from "framer-motion";
+import reviewClient1 from "../assets/reviewClient1.jpeg"
+import reviewClient2 from "../assets/reviewClient2.jpeg"
+import reviewClient3 from "../assets/reviewClient3.jpeg"
 
 const testimonials = [
   {
     id: 1,
-    name: "Alaska Valenta",
-    role: "Designer",
-    feedback: "The best for exporting and getting the right results without a hassle.",
-    image: "https://images.pexels.com/photos/6931208/pexels-photo-6931208.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+    name: "Diesel Gaming",
+    role: "Organization",
+    feedback: "RedWhisk handles everything, so I can focus on gaming and creating. Highly recommend!",
+    image: reviewClient1
   },
   {
     id: 2,
-    name: "Emily Peterson",
-    role: "CEO",
-    feedback: "It’s a super product with professional support team. I can’t wait to see the future features.",
-    image: "https://images.pexels.com/photos/5649093/pexels-photo-5649093.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+    name: "Phyjeeics",
+    role: "Aditya Narayan",
+    feedback: "RedWhisk handles my content and collaborations, giving me more time to focus on teaching. Highly recommend!",
+    image:  reviewClient2
   },
   {
     id: 3,
-    name: "Adrien Jacob",
-    role: "Head of Sales",
-    feedback: "We’ve been looking for this product since the creation of our business.",
-    image: "https://images.pexels.com/photos/8837809/pexels-photo-8837809.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+    name: "Encore",
+    role: "Rishbah",
+    feedback: "RedWhisk streamlined my workflow, handling content and brand deals so I can focus on gaming. A total game-changer!",
+    image:  reviewClient3
   },
   {
-    id: 4,
-    name: "Sophia Lee",
-    role: "Marketing Manager",
-    feedback: "This tool has been an absolute game changer for our campaigns!",
-    image: "https://images.pexels.com/photos/6592751/pexels-photo-6592751.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+    id: 1,
+    name: "Diesel Gaming",
+    role: "Organization",
+    feedback: "RedWhisk handles everything, so I can focus on gaming and creating. Highly recommend!",
+    image: reviewClient1
   },
   {
-    id: 5,
-    name: "Michael Brown",
-    role: "Developer",
-    feedback: "Amazing product with excellent customer support!",
-    image: "https://images.pexels.com/photos/8512381/pexels-photo-8512381.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+    id: 2,
+    name: "Phyjeeics",
+    role: "Aditya Narayan",
+    feedback: "RedWhisk handles my content and collaborations, giving me more time to focus on teaching. Highly recommend!",
+    image:  reviewClient2
   },
   {
-    id: 6,
-    name: "Olivia Green",
-    role: "Project Manager",
-    feedback: "Efficient, reliable, and easy to use! Highly recommended.",
-    image: "https://images.pexels.com/photos/5717546/pexels-photo-5717546.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+    id: 3,
+    name: "Encore",
+    role: "Rishbah",
+    feedback: "RedWhisk streamlined my workflow, handling content and brand deals so I can focus on gaming. A total game-changer!",
+    image:  reviewClient3
   },
+  
 ];
 
 const CustomerTestimonials = () => {
