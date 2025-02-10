@@ -2,7 +2,7 @@ import React from "react";
 import { motion } from "framer-motion";
 import reviewClient1 from "../assets/reviewClient1.jpeg"
 import reviewClient2 from "../assets/reviewClient2.jpeg"
-import reviewClient3 from "../assets/reviewClient3.jpeg"
+import reviewClient3 from "../assets/reviewclient3.jpeg"
 
 const testimonials = [
   {
