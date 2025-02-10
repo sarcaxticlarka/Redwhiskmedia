@@ -82,7 +82,7 @@ const ReelSection = () => {
         {
             title: "Darknet Diaries",
             views: "2.4M+ Views",
-            video: "",
+            video: "https://drive.google.com/file/d/11p7k6Tn56ImwoWygbpzG3JCvPdot1Azo/view",
             logo: "https://images.unsplash.com/photo-1496200186974-4293800e2c20?q=80&w=3132&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
         },
         {

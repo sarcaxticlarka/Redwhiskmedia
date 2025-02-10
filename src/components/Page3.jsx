@@ -158,7 +158,7 @@ const Page3 = () => {
           Create a brand that drives <br /> innovation and growth. Make <br /> your mark on the world with us!
         </motion.h2>
         <motion.div
-          className="red-line absolute top-[1.87vw] h-[0.3vw] w-[32vw] bg-[#ec646f]"
+          className="red-line absolute top-[1.86vw] h-[0.3vw] w-[34vw] bg-[#ec646f]"
           variants={redLineVariants}
         />
       </div>
@@ -190,7 +190,7 @@ const Page3 = () => {
         </div>
       </div>
       <motion.div
-        className="red-circle absolute left-[48%] top-[11vw] h-[7vw] w-[7vw] rounded-full bg-[#ec646f]"
+        className="red-circle absolute left-[51%] top-[10vw] h-[6vw] w-[6vw] rounded-full bg-[#ec646f]"
         variants={redCircleVariants}
       />
     </motion.div>
