@@ -73,9 +73,11 @@
 import React from "react";
 import './ReelSection.css';
 import reel1 from '../assets/reel1.mp4';
-import reel2 from '../assets/reel2.mp4';
-import reel3 from '../assets/redshort1.mp4';
+// import reel2 from '../assets/reel2.mp4';
+// import reel3 from '../assets/redshort1.mp4';
 // import reel3 from '../assets/redshort.mp4';
+import reel2 from '../assets/podacst2.mp4';
+import reel3 from '../assets/podcast_reel.mp4';
 
 
 const ReelSection = () => {
