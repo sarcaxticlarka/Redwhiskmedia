@@ -34,6 +34,8 @@
 
 // export default App;
 // src/App.js
+
+
 import React, { useState, useEffect } from 'react';
 import Camera from './components/Camere';
 import Page1 from './components/Page1';

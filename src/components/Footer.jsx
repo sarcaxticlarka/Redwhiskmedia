@@ -89,6 +89,7 @@
 
 import React from "react";
 import { PopupButton } from "react-calendly";
+import qrcode from "../assets/qrcode.png";
 
 const Footer = () => {
     // Function for smooth scrolling
@@ -127,7 +128,7 @@ const Footer = () => {
                 <div className="flex flex-col items-center md:items-end space-y-2">
                     <a href="https://www.linkedin.com/company/redwhisk-media/" className="hover:underline">LinkedIn</a>
                     <a href="https://www.instagram.com/redwhisk.media/" className="hover:underline">Instagram</a>
-                    <a href="#facebook" className="hover:underline">Facebook</a>
+                    {/* <a href="#facebook" className="hover:underline">Facebook</a> */}
                 </div>
             </div>
 
@@ -154,12 +155,13 @@ const Footer = () => {
                 </div>
 
                 {/* QR Code */}
-                <div className="flex justify-center md:justify-end items-center">
+                <div className="flex flex-col justify-center md:justify-end items-center">
                     <img
-                        src="https://play-lh.googleusercontent.com/Byl6BHzEv7tWDGa5QUgztneq8C8TGYelu8ywVMTTRUH2e9keboyLqL4YhmzaU3vjgA=w240-h480-rw"
+                        src={qrcode}
                         alt="QR Code"
                         className="w-20 h-20"
                     />
+                    <p  className=" scan text-sm px-2">Scan to Book a call</p>
                 </div>
             </div>
         </footer>
