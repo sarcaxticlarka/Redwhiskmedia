@@ -3,6 +3,7 @@ import { motion } from "framer-motion";
 import reviewClient1 from "../assets/reviewClient1.jpeg"
 import reviewClient2 from "../assets/reviewClient2.jpeg"
 import reviewClient3 from "../assets/reviewclient3.jpeg"
+import reviewClient4 from "../assets/reviewclient4.jpeg"
 
 const testimonials = [
   {
@@ -27,26 +28,13 @@ const testimonials = [
     image:  reviewClient3
   },
   {
-    id: 1,
-    name: "Diesel Gaming",
-    role: "Organization",
-    feedback: "RedWhisk handles everything, so I can focus on gaming and creating. Highly recommend!",
-    image: reviewClient1
+    id: 4,
+    name: "Michael Morelli",
+    role: "morellifit",
+    feedback: "Redwhisk designed a stunning fitness thumbnail that boosted my click-through rates. Highly recommended!",
+    image: reviewClient4
   },
-  {
-    id: 2,
-    name: "Phyjeeics",
-    role: "Aditya Narayan",
-    feedback: "RedWhisk handles my content and collaborations, giving me more time to focus on teaching. Highly recommend!",
-    image:  reviewClient2
-  },
-  {
-    id: 3,
-    name: "Encore",
-    role: "Rishbah",
-    feedback: "RedWhisk streamlined my workflow, handling content and brand deals so I can focus on gaming. A total game-changer!",
-    image:  reviewClient3
-  },
+  
   
 ];
 

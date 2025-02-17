@@ -54,7 +54,8 @@
 import React, { useEffect } from "react";
 import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
-import CalendlyButton from './CalendlyButton';
+import brochure from "../assets/Brochure@Redwhisk.pdf"
+// import CalendlyButton from './CalendlyButton';
 
 const Page2 = () => {
   useEffect(() => {
@@ -96,7 +97,7 @@ const Page2 = () => {
             </div> */}
             <div className="flex justify-center">
               <a
-                href="/path-to-your-brochure.pdf"
+                href={brochure}
                 target="_blank"
                 rel="noopener noreferrer"
               >
