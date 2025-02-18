@@ -120,7 +120,7 @@ const Navbar = () => {
 
   return (
     <nav className="absolute -top-16 -left-2 w-full flex items-center p-6 z-50 bg-transparent">
-      <div className="w-full flex items-center lg:gap-[30%] lg:flex-row flex justify-between mr-[40%]">
+      <div className="w-full flex items-center lg:gap-[30%] lg:flex-row flex justify-between mr-[34.5%]">
         <img className="w-42 h-42" src={logo} alt="" />        
         {/* Mobile Menu Button */}
         <button 

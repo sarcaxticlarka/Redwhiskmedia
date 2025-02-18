@@ -140,9 +140,9 @@ const Footer = () => {
                     <div>
                         <p className="font-semibold">Delhi NCR</p>
                         <p>India</p>
-                      
+
                     </div>
-                    
+
                 </div>
 
                 {/* Logo and Links */}
@@ -156,12 +156,26 @@ const Footer = () => {
 
                 {/* QR Code */}
                 <div className="flex flex-col justify-center md:justify-end items-center">
+                    {/* <a href="https://calendly.com/mediaredwhisk">
                     <img
                         src={qrcode}
                         alt="QR Code"
                         className="w-20 h-20"
                     />
-                    <p  className=" scan text-sm px-2">Scan to Book a call</p>
+                    </a> */}
+                    <a
+                        href="https://calendly.com/mediaredwhisk"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        onClick={(e) => {
+                            e.preventDefault(); // Prevent default behavior
+                            window.open("https://calendly.com/mediaredwhisk", "_blank", "noopener,noreferrer");
+                        }}
+                    >
+                        <img src={qrcode} alt="QR Code" className="w-20 h-20" />
+                    </a>
+
+                    <p className=" scan text-sm px-2">Scan/Click to Book a call</p>
                 </div>
             </div>
         </footer>
